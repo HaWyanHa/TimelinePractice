@@ -1,0 +1,159 @@
+@media screen and (min-width: 401px) and (max-width: 1200px) {
+	.clearfix {
+		clear: both;
+	}
+	section {
+		width: 829px;
+		margin-top: -40px;
+		position: relative;
+	}
+	h1 {
+		margin: 0;
+		padding: 5% 0;
+	}
+	p{
+		padding: 0;
+	}
+	.oddTime {
+		width: 20%;
+		float: left;
+	}
+	.oddArticles {
+		width: 70%;
+		float: right;
+		padding: 0 5%;
+	}
+	.evenTime {
+		width: 20%;
+		float: left;
+	}
+	.evenArticles {
+		width: 70%;
+		float: right;
+		padding: 0 5%;
+	}
+	.line {
+		border-bottom: none;
+		border-right: 5px solid #7DBFEB;
+		margin-right: 20%;
+		height: 261px;
+	}
+	// .fakeLine {
+	// 	width: 5px;
+	// 	height: 50px;
+	// 	background-color: #7DBFEB;
+	// 	position: absolute;
+	// 	bottom: -261px;
+	// 	left: 185px;
+	// }
+	.date {
+	@include dateStyle(#777, 15px);
+	float: left;
+	}
+	.military {
+		clear: both;
+		display: block;
+		float: left;
+	}
+	.circle {
+	height: 32px;
+	width: 32px;
+	background-color: #4C96C9;
+	border-radius: 50%;
+	border: 5px solid $oddColors;
+	
+		&.oddCircles {
+		position: absolute;
+		top: 4px;
+		left: 108px;
+		}
+		&.evenCircles {
+		position: absolute;
+		top: 0px;
+		right: 14px;	
+		}
+	}
+}
+@media screen and (min-width: 1200px) {
+	section {
+		width: 1200px;
+		margin-top: -40px;
+		position: relative;
+	}
+	h1 {
+		margin: 0;
+		padding: 5% 0;
+	}
+	p{
+		padding: 0;
+	}
+	.container {
+		position: relative;
+	}
+	.oddTime {
+		width: 15%;
+		float: left;
+		position: relative;
+	}
+	.oddArticles {
+		width: 70%;
+		float: right;
+		padding: 0 5%;
+	}
+	.evenTime {
+		width: 15%;
+		float: left;
+	}
+	.evenArticles {
+		width: 70%;
+		float: right;
+		padding: 0 5%;
+		margin-top: 3%;
+	}
+	.line {
+		display: none;
+	}
+	.fakeLine {
+		width: 5px;
+		height: 300px;
+		background-color: #7DBFEB;
+		position: absolute;
+		top: 87px;
+		left: 255px;
+	}
+		.circle {
+	height: 32px;
+	width: 32px;
+	background-color: #4C96C9;
+	border-radius: 50%;
+	border: 5px solid $oddColors;
+	z-index: 1;
+	
+		&.oddCircles {
+		position: absolute;
+		top: -2px;
+		left: 173px;
+		}
+		&.evenCircles {
+		position: absolute;
+		top: 225px;
+		right: -34px;	
+		}
+	}
+
+	.desktop {
+		position: absolute;
+		top: 218px;
+
+	}
+	.date {
+	@include dateStyle(#777, 15px);
+	float: left;
+	}
+	.military {
+		clear: both;
+		display: block;
+		float: left;
+	}
+
+}

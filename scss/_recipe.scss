@@ -1,0 +1,79 @@
+section {
+	padding: 5%;
+	margin: 0 auto;
+}
+h1{
+	padding: 10% 0 5%;
+	margin: 0 10%;
+	border-bottom: 2px solid white
+}
+p{
+	padding: 10%;
+}
+.position {
+	color: #fff;
+	&.positionOdd {
+		position: absolute;
+		top: 0px;
+		right: 9px;
+	}
+	&.positionEven {
+	position: absolute;
+	top: 9px;
+	right: 4px;
+	}
+
+}
+.oddArticles {
+	color: $textColor;
+	background-color: $oddColors;
+	float: none;
+	width: 90%;
+	border-radius: 2%;
+}
+
+.oddTime {
+	width: 90%;
+	position: relative;
+}
+.evenArticles {
+	color: $textColor;
+	background-color: $evenColors;
+	float: none;
+	width: 90%;
+	border-radius: 5%;
+}
+.evenTime {
+	width: 90%;
+	position: relative;
+}
+.line {
+	border-bottom: 5px solid $oddColors;
+	margin: 10% 0;
+}
+.date {
+	@include dateStyle(#777, 10px);
+}
+.military {
+	display: block;
+	font-size: 37px;
+	color: $oddColors;
+}
+.circle {
+	height: 32px;
+	width: 32px;
+	background-color: #4C96C9;
+	border-radius: 50%;
+	border: 5px solid $oddColors;
+	
+	&.oddCircles {
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+	}
+	&.evenCircles {
+	position: absolute;
+	bottom: -18px;
+	right: 0;	
+	}
+}

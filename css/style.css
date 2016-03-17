@@ -1,0 +1,215 @@
+section {
+  padding: 5%;
+  margin: 0 auto; }
+
+h1 {
+  padding: 10% 0 5%;
+  margin: 0 10%;
+  border-bottom: 2px solid white; }
+
+p {
+  padding: 10%; }
+
+.position {
+  color: #fff; }
+  .position.positionOdd {
+    position: absolute;
+    top: 0px;
+    right: 9px; }
+  .position.positionEven {
+    position: absolute;
+    top: 9px;
+    right: 4px; }
+
+.oddArticles {
+  color: #fff;
+  background-color: #7DBFEB;
+  float: none;
+  width: 90%;
+  border-radius: 2%; }
+
+.oddTime {
+  width: 90%;
+  position: relative; }
+
+.evenArticles {
+  color: #fff;
+  background-color: #4C96C9;
+  float: none;
+  width: 90%;
+  border-radius: 5%; }
+
+.evenTime {
+  width: 90%;
+  position: relative; }
+
+.line {
+  border-bottom: 5px solid #7DBFEB;
+  margin: 10% 0; }
+
+.date {
+  color: #777;
+  font-size: 10px; }
+
+.military {
+  display: block;
+  font-size: 37px;
+  color: #7DBFEB; }
+
+.circle {
+  height: 32px;
+  width: 32px;
+  background-color: #4C96C9;
+  border-radius: 50%;
+  border: 5px solid #7DBFEB; }
+  .circle.oddCircles {
+    position: absolute;
+    bottom: -18px;
+    left: 0; }
+  .circle.evenCircles {
+    position: absolute;
+    bottom: -18px;
+    right: 0; }
+
+@media screen and (min-width: 401px) and (max-width: 1200px) {
+  .clearfix {
+    clear: both; }
+
+  section {
+    width: 829px;
+    margin-top: -40px;
+    position: relative; }
+
+  h1 {
+    margin: 0;
+    padding: 5% 0; }
+
+  p {
+    padding: 0; }
+
+  .oddTime {
+    width: 20%;
+    float: left; }
+
+  .oddArticles {
+    width: 70%;
+    float: right;
+    padding: 0 5%; }
+
+  .evenTime {
+    width: 20%;
+    float: left; }
+
+  .evenArticles {
+    width: 70%;
+    float: right;
+    padding: 0 5%; }
+
+  .line {
+    border-bottom: none;
+    border-right: 5px solid #7DBFEB;
+    margin-right: 20%;
+    height: 261px; }
+
+  .date {
+    color: #777;
+    font-size: 15px;
+    float: left; }
+
+  .military {
+    clear: both;
+    display: block;
+    float: left; }
+
+  .circle {
+    height: 32px;
+    width: 32px;
+    background-color: #4C96C9;
+    border-radius: 50%;
+    border: 5px solid #7DBFEB; }
+    .circle.oddCircles {
+      position: absolute;
+      top: 4px;
+      left: 108px; }
+    .circle.evenCircles {
+      position: absolute;
+      top: 0px;
+      right: 14px; } }
+@media screen and (min-width: 1200px) {
+  section {
+    width: 1200px;
+    margin-top: -40px;
+    position: relative; }
+
+  h1 {
+    margin: 0;
+    padding: 5% 0; }
+
+  p {
+    padding: 0; }
+
+  .container {
+    position: relative; }
+
+  .oddTime {
+    width: 15%;
+    float: left;
+    position: relative; }
+
+  .oddArticles {
+    width: 70%;
+    float: right;
+    padding: 0 5%; }
+
+  .evenTime {
+    width: 15%;
+    float: left; }
+
+  .evenArticles {
+    width: 70%;
+    float: right;
+    padding: 0 5%;
+    margin-top: 3%; }
+
+  .line {
+    display: none; }
+
+  .fakeLine {
+    width: 5px;
+    height: 300px;
+    background-color: #7DBFEB;
+    position: absolute;
+    top: 87px;
+    left: 255px; }
+
+  .circle {
+    height: 32px;
+    width: 32px;
+    background-color: #4C96C9;
+    border-radius: 50%;
+    border: 5px solid #7DBFEB;
+    z-index: 1; }
+    .circle.oddCircles {
+      position: absolute;
+      top: -2px;
+      left: 173px; }
+    .circle.evenCircles {
+      position: absolute;
+      top: 225px;
+      right: -34px; }
+
+  .desktop {
+    position: absolute;
+    top: 218px; }
+
+  .date {
+    color: #777;
+    font-size: 15px;
+    float: left; }
+
+  .military {
+    clear: both;
+    display: block;
+    float: left; } }
+
+/*# sourceMappingURL=style.css.map */
